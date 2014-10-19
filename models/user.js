@@ -9,12 +9,14 @@ var userSchema = mongoose.Schema({
         id           : String,
         username     : String,
         token        : String,
-        email        : String,
-        password     : String,
+        //email        : String,
+       //password     : String,
         name         : String
     }
 
 });
+
+userSchema.index({id:1, username:1});
 
 // methods ======================
 // generating a hash
