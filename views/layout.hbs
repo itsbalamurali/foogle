@@ -6,14 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{title}}</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/flatly/bootstrap.min.css" rel="stylesheet">
 	<link rel='stylesheet' href='/stylesheets/style.css' />
-	<style>
-		body 		{ padding-top:80px; }
-	</style>
   </head>
   <body>
-  <div class="container">
-
       <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
 
@@ -51,7 +47,7 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
+  <div class="container">
     {{#if error}}
       <p class="alert alert-warning">{{error}}</p>
     {{/if}}
